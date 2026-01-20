@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyController : MovementController
 {
-    [SerializeField] float distanceToPunch = 0.25f;
+    [SerializeField] float distanceToPunch = 0.75f;
     [SerializeField] float timeBetweenPunches = 1f;
     Transform player;
     float lastPunchTime;

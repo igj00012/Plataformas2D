@@ -17,7 +17,7 @@ public class PlayerController : MovementController
         base.Update();
     }
 
-    private float critProb = 1f;
+    private float critProb = 0.4f;
     private void UpdateRawMove()
     {
         Vector2 rawMove = Vector2.zero;
