@@ -2,9 +2,52 @@ using UnityEngine;
 
 public class EnemyController : MovementController
 {
-     protected override void Update()
+    [SerializeField] float distanceToPunch = 0.25f;
+    [SerializeField] float timeBetweenPunches = 1f;
+    Transform player;
+    float lastPunchTime;
+
+    protected override void Update()
     {
-        desiredMove = Vector2.left;
+        player = PlayerController.instance.transform;
+
+        RunToPlayer();
+
+        if (player.gameObject.activeSelf)
+        {
+            CheckAndPerformPunch();
+        }
+        else
+        {
+            desiredMove.x *= -1f;
+        }
+
         base.Update();
+    }
+
+    private void CheckAndPerformPunch()
+    {
+        if (Mathf.Abs(player.position.x - transform.position.x) < distanceToPunch)
+        {
+            desiredMove = Vector2.zero;
+
+            if (Time.time - lastPunchTime > timeBetweenPunches)
+            {
+                PerformPunch();
+                lastPunchTime = Time.time;
+            }
+        }
+    }
+
+    protected virtual void RunToPlayer()
+    {
+        if (player.position.x < transform.position.x)
+        {
+            desiredMove = Vector2.left;
+        }
+        else
+        {
+            desiredMove = Vector2.right;
+        }
     }
 }

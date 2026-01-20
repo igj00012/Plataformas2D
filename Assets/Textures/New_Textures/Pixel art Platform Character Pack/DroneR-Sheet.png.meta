@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 992d581a3a7f0af40925e8a3944108cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8792981634938342876
+    second: DroneR-Sheet_0
+  - first:
+      213: -5784940201197452255
+    second: DroneR-Sheet_1
+  - first:
+      213: 4745127056113435315
+    second: DroneR-Sheet_2
+  - first:
+      213: 2590816309686367141
+    second: DroneR-Sheet_3
+  - first:
+      213: 206769021085888749
+    second: DroneR-Sheet_4
+  - first:
+      213: 5812027489450000217
+    second: DroneR-Sheet_5
+  - first:
+      213: 7590278789099330988
+    second: DroneR-Sheet_6
+  - first:
+      213: -4205563225681405963
+    second: DroneR-Sheet_7
+  - first:
+      213: -8611146957653731280
+    second: DroneR-Sheet_8
+  - first:
+      213: 2451946333076845057
+    second: DroneR-Sheet_9
+  - first:
+      213: 6140272889631475530
+    second: DroneR-Sheet_10
+  - first:
+      213: -4084530688134762954
+    second: DroneR-Sheet_11
+  - first:
+      213: -8495827831301695574
+    second: DroneR-Sheet_12
+  - first:
+      213: 4562032517189175142
+    second: DroneR-Sheet_13
+  - first:
+      213: -6735644624301701234
+    second: DroneR-Sheet_14
+  - first:
+      213: -5277242903581218242
+    second: DroneR-Sheet_15
+  - first:
+      213: -6948640947163907529
+    second: DroneR-Sheet_16
+  - first:
+      213: 4735444829792736683
+    second: DroneR-Sheet_17
+  - first:
+      213: 2826811886578211923
+    second: DroneR-Sheet_18
+  - first:
+      213: 924966787728854961
+    second: DroneR-Sheet_19
+  - first:
+      213: 1296655742480144704
+    second: DroneR-Sheet_20
+  - first:
+      213: 5643851595130017926
+    second: DroneR-Sheet_21
+  - first:
+      213: -3214054833574693017
+    second: DroneR-Sheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DroneR-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd8803b532f60a70800000000000000
+      internalID: 8792981634938342876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124cfb47983c7bfa0800000000000000
+      internalID: -5784940201197452255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b28cb1bae31ad140800000000000000
+      internalID: 4745127056113435315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3f429f4bd64f320800000000000000
+      internalID: 2590816309686367141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0316444579ed200800000000000000
+      internalID: 206769021085888749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ff87d453878a050800000000000000
+      internalID: 5812027489450000217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad927af756165960800000000000000
+      internalID: 7590278789099330988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f750dc3786d2a5c0800000000000000
+      internalID: -4205563225681405963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0381d50477f0f7880800000000000000
+      internalID: -8611146957653731280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102fd5fe230170220800000000000000
+      internalID: 2451946333076845057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47027a19a1a63550800000000000000
+      internalID: 6140272889631475530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63eab8bdaf4d057c0800000000000000
+      internalID: -4084530688134762954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 10
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7926aa991c81a80800000000000000
+      internalID: -8495827831301695574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 9
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66787d857689f4f30800000000000000
+      internalID: 4562032517189175142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 5
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e874a33b6ee2682a0800000000000000
+      internalID: -6735644624301701234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 3
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a279a0a8773c6b0800000000000000
+      internalID: -5277242903581218242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 3
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73abf80cfd7719f90800000000000000
+      internalID: -6948640947163907529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba59145bbfda7b140800000000000000
+      internalID: 4735444829792736683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c985a0f6ada3720800000000000000
+      internalID: 2826811886578211923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfcc9b846426dc00800000000000000
+      internalID: 924966787728854961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049df7e1785aef110800000000000000
+      internalID: 1296655742480144704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6881fb49f1df25e40800000000000000
+      internalID: 5643851595130017926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneR-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767372c58226563d0800000000000000
+      internalID: -3214054833574693017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DroneR-Sheet_0: 8792981634938342876
+      DroneR-Sheet_1: -5784940201197452255
+      DroneR-Sheet_10: 6140272889631475530
+      DroneR-Sheet_11: -4084530688134762954
+      DroneR-Sheet_12: -8495827831301695574
+      DroneR-Sheet_13: 4562032517189175142
+      DroneR-Sheet_14: -6735644624301701234
+      DroneR-Sheet_15: -5277242903581218242
+      DroneR-Sheet_16: -6948640947163907529
+      DroneR-Sheet_17: 4735444829792736683
+      DroneR-Sheet_18: 2826811886578211923
+      DroneR-Sheet_19: 924966787728854961
+      DroneR-Sheet_2: 4745127056113435315
+      DroneR-Sheet_20: 1296655742480144704
+      DroneR-Sheet_21: 5643851595130017926
+      DroneR-Sheet_22: -3214054833574693017
+      DroneR-Sheet_3: 2590816309686367141
+      DroneR-Sheet_4: 206769021085888749
+      DroneR-Sheet_5: 5812027489450000217
+      DroneR-Sheet_6: 7590278789099330988
+      DroneR-Sheet_7: -4205563225681405963
+      DroneR-Sheet_8: -8611146957653731280
+      DroneR-Sheet_9: 2451946333076845057
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

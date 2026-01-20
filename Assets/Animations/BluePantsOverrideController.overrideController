@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BluePantsOverrideController
+  m_Controller: {fileID: 9100000, guid: de71ffd03fd56cd4d8d776a436b5aae3, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d1cc847dc0a2fb4458fc67c674fc63d6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4882965568c85e743b749c34c1aa5065, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8454bcd05cf458d45adce9afde7856c2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f35cf3906757d0e49baea59258be0832, type: 2}

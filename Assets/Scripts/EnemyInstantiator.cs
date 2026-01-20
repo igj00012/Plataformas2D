@@ -16,7 +16,8 @@ public class EnemyInstantiator : MonoBehaviour
     {
         while (true)
         {
-            Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+            GameObject newEnemy = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+
             yield return new WaitForSeconds(timeBetweenInstantiations);
         }
     }

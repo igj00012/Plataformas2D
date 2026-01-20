@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 9b4e11d9565b28b46a980f4b2e50e66c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6242043953177583558
+    second: Tinywalk-Sheet_0
+  - first:
+      213: 1633931952897465473
+    second: Tinywalk-Sheet_1
+  - first:
+      213: 1032488989437968957
+    second: Tinywalk-Sheet_2
+  - first:
+      213: 1745617513484806119
+    second: Tinywalk-Sheet_3
+  - first:
+      213: 4019824569376238142
+    second: Tinywalk-Sheet_4
+  - first:
+      213: 5820102276726643880
+    second: Tinywalk-Sheet_5
+  - first:
+      213: 2376727964887566384
+    second: Tinywalk-Sheet_6
+  - first:
+      213: 8184359146105446638
+    second: Tinywalk-Sheet_7
+  - first:
+      213: 8042836669362074259
+    second: Tinywalk-Sheet_8
+  - first:
+      213: -1935525288451644607
+    second: Tinywalk-Sheet_9
+  - first:
+      213: -4291948994781443474
+    second: Tinywalk-Sheet_10
+  - first:
+      213: -749115272765688233
+    second: Tinywalk-Sheet_11
+  - first:
+      213: 2178326780644365553
+    second: Tinywalk-Sheet_12
+  - first:
+      213: 3409103227093392824
+    second: Tinywalk-Sheet_13
+  - first:
+      213: 3205282504108196232
+    second: Tinywalk-Sheet_14
+  - first:
+      213: -3637016520891555460
+    second: Tinywalk-Sheet_15
+  - first:
+      213: 854318667723124557
+    second: Tinywalk-Sheet_16
+  - first:
+      213: -7509626361053884465
+    second: Tinywalk-Sheet_17
+  - first:
+      213: 4192577381091626467
+    second: Tinywalk-Sheet_18
+  - first:
+      213: 4957853281541390386
+    second: Tinywalk-Sheet_19
+  - first:
+      213: -6236655815655061970
+    second: Tinywalk-Sheet_20
+  - first:
+      213: 6897083350270416951
+    second: Tinywalk-Sheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30a97aa81ecf59a0800000000000000
+      internalID: -6242043953177583558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c1d974474eca610800000000000000
+      internalID: 1633931952897465473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32c3f9f343245e00800000000000000
+      internalID: 1032488989437968957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e766fc31eda93810800000000000000
+      internalID: 1745617513484806119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aee0dd52949c730800000000000000
+      internalID: 4019824569376238142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acdbb83f2825c050800000000000000
+      internalID: 5820102276726643880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 7
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0384cdadd75dbf020800000000000000
+      internalID: 2376727964887566384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0a5d1e74fa49170800000000000000
+      internalID: 8184359146105446638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392ffc78655ed9f60800000000000000
+      internalID: 8042836669362074259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143ed084102a325e0800000000000000
+      internalID: -1935525288451644607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a05f3012fef64c0800000000000000
+      internalID: -4291948994781443474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7563bfed0ab9a95f0800000000000000
+      internalID: -749115272765688233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4170d6aa8fa3e10800000000000000
+      internalID: 2178326780644365553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd1a85a2519f4f20800000000000000
+      internalID: 3409103227093392824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881c42684737b7c20800000000000000
+      internalID: 3205282504108196232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7128067eb8b68dc0800000000000000
+      internalID: -3637016520891555460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f2f9a4d462bdb00800000000000000
+      internalID: 854318667723124557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf4971cc9278c790800000000000000
+      internalID: -7509626361053884465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edcd453ae60f2a30800000000000000
+      internalID: 4192577381091626467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23087ceaa45ddc440800000000000000
+      internalID: 4957853281541390386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2681813492f279a0800000000000000
+      internalID: -6236655815655061970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinywalk-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7381127c3cc57bf50800000000000000
+      internalID: 6897083350270416951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tinywalk-Sheet_0: -6242043953177583558
+      Tinywalk-Sheet_1: 1633931952897465473
+      Tinywalk-Sheet_10: -4291948994781443474
+      Tinywalk-Sheet_11: -749115272765688233
+      Tinywalk-Sheet_12: 2178326780644365553
+      Tinywalk-Sheet_13: 3409103227093392824
+      Tinywalk-Sheet_14: 3205282504108196232
+      Tinywalk-Sheet_15: -3637016520891555460
+      Tinywalk-Sheet_16: 854318667723124557
+      Tinywalk-Sheet_17: -7509626361053884465
+      Tinywalk-Sheet_18: 4192577381091626467
+      Tinywalk-Sheet_19: 4957853281541390386
+      Tinywalk-Sheet_2: 1032488989437968957
+      Tinywalk-Sheet_20: -6236655815655061970
+      Tinywalk-Sheet_21: 6897083350270416951
+      Tinywalk-Sheet_3: 1745617513484806119
+      Tinywalk-Sheet_4: 4019824569376238142
+      Tinywalk-Sheet_5: 5820102276726643880
+      Tinywalk-Sheet_6: 2376727964887566384
+      Tinywalk-Sheet_7: 8184359146105446638
+      Tinywalk-Sheet_8: 8042836669362074259
+      Tinywalk-Sheet_9: -1935525288451644607
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

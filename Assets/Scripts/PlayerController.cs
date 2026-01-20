@@ -3,11 +3,21 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MovementController
 {
+    public static PlayerController instance;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        instance = this;
+    }
+
     protected override void Update()
     {
         UpdateRawMove();
         base.Update();
     }
+
+    private float critProb = 1f;
     private void UpdateRawMove()
     {
         Vector2 rawMove = Vector2.zero;
@@ -30,7 +40,24 @@ public class PlayerController : MovementController
 
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            mustPunch = true;
+            if (Random.Range(0f, 1f) <= critProb)
+            {
+                criticalHit = true;
+            }
+
+            PerformPunch();
         }
+    }
+
+    public override void NotifyHit(Hitbox2D hitbox)
+    {
+        Debug.Log("Este notify es del PlayerController");
+        gameObject.SetActive(false);
+        Invoke(nameof(ActivatePlayer), 3f);
+    }
+
+    void ActivatePlayer()
+    {
+        gameObject.SetActive(true);
     }
 }

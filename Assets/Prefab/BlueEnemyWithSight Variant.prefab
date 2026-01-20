@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8002953238499204323
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3240415758466233463, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.538
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240415758466233463, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.704
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240415758466233463, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240415758466233463, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240415758466233463, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240415758466233463, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240415758466233463, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240415758466233463, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240415758466233463, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240415758466233463, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633321898835547806, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      propertyPath: m_Name
+      value: BlueEnemyWithSight Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 193253360893803789, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5633321898835547806, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3928191664361719271}
+    - targetCorrespondingSourceObject: {fileID: 5633321898835547806, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5347002636637594685}
+  m_SourcePrefab: {fileID: 100100000, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+--- !u!1 &2395255270009408125 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5633321898835547806, guid: 57ccc8cdbf88a7341bcb497d6a71d55e, type: 3}
+  m_PrefabInstance: {fileID: 8002953238499204323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3928191664361719271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2395255270009408125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3758ae6f2d6f5b42a307e1298a573d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sight2D
+  radius: 2
+  checkFrequency: 5
+--- !u!114 &5347002636637594685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2395255270009408125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f6f35f809ce46449bf4b613983a41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyWithSight
+  punchHit: {fileID: 0}
+  punchHitDuration: 0.25
+  walkSpeed: 1
+  jumpForce: 10
+  distanceToPunch: 0.25
+  timeBetweenPunches: 1

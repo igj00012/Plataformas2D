@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: f7fc528c9c991084aaecb8d4e384cd2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2668555834942366158
+    second: Dr Horse-Sheet_0
+  - first:
+      213: -5602908878781345997
+    second: Dr Horse-Sheet_1
+  - first:
+      213: -1240733122392834631
+    second: Dr Horse-Sheet_2
+  - first:
+      213: -5050576820041538455
+    second: Dr Horse-Sheet_3
+  - first:
+      213: 8689974483071335048
+    second: Dr Horse-Sheet_4
+  - first:
+      213: 7872673386901937832
+    second: Dr Horse-Sheet_5
+  - first:
+      213: -2324595265392252756
+    second: Dr Horse-Sheet_6
+  - first:
+      213: 5179679938668030171
+    second: Dr Horse-Sheet_7
+  - first:
+      213: 3828932211162009046
+    second: Dr Horse-Sheet_8
+  - first:
+      213: -1547011512218958938
+    second: Dr Horse-Sheet_9
+  - first:
+      213: -5362136626632398906
+    second: Dr Horse-Sheet_10
+  - first:
+      213: 1708111575067319171
+    second: Dr Horse-Sheet_11
+  - first:
+      213: -3346867104756074066
+    second: Dr Horse-Sheet_12
+  - first:
+      213: 522568491327955686
+    second: Dr Horse-Sheet_13
+  - first:
+      213: 7876076696470523228
+    second: Dr Horse-Sheet_14
+  - first:
+      213: 1048949358818825447
+    second: Dr Horse-Sheet_15
+  - first:
+      213: -983577286197476435
+    second: Dr Horse-Sheet_16
+  - first:
+      213: -2460870983238410238
+    second: Dr Horse-Sheet_17
+  - first:
+      213: 6377921630761117462
+    second: Dr Horse-Sheet_18
+  - first:
+      213: 249792771181205054
+    second: Dr Horse-Sheet_19
+  - first:
+      213: -7779489633435700699
+    second: Dr Horse-Sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1290da46d980520800000000000000
+      internalID: 2668555834942366158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f0b5b6f087e32b0800000000000000
+      internalID: -5602908878781345997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdb6b28cc708cee0800000000000000
+      internalID: -1240733122392834631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9642a9a242fb8e9b0800000000000000
+      internalID: -5050576820041538455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88afcaa30cdf89870800000000000000
+      internalID: 8689974483071335048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae16f2fbba514d60800000000000000
+      internalID: 7872673386901937832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca86dbf1ce06dbfd0800000000000000
+      internalID: -2324595265392252756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8668a067be1e740800000000000000
+      internalID: 5179679938668030171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddcc5b3f89132530800000000000000
+      internalID: 3828932211162009046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3cfbed939e78ae0800000000000000
+      internalID: -1547011512218958938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7e67cd52dd595b0800000000000000
+      internalID: -5362136626632398906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 9
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bde947d6e64b710800000000000000
+      internalID: 1708111575067319171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9f296c91a8d81d0800000000000000
+      internalID: -3346867104756074066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e22a603649804700800000000000000
+      internalID: 522568491327955686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d8bd4b6027d4d60800000000000000
+      internalID: 7876076696470523228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e415cf52ed9e8e00800000000000000
+      internalID: 1048949358818825447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da38e0f5ba1a952f0800000000000000
+      internalID: -983577286197476435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200220601ea39ddd0800000000000000
+      internalID: -2460870983238410238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617ebc67eede28850800000000000000
+      internalID: 6377921630761117462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3657b1b331777300800000000000000
+      internalID: 249792771181205054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Horse-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5223b395563b90490800000000000000
+      internalID: -7779489633435700699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dr Horse-Sheet_0: 2668555834942366158
+      Dr Horse-Sheet_1: -5602908878781345997
+      Dr Horse-Sheet_10: -5362136626632398906
+      Dr Horse-Sheet_11: 1708111575067319171
+      Dr Horse-Sheet_12: -3346867104756074066
+      Dr Horse-Sheet_13: 522568491327955686
+      Dr Horse-Sheet_14: 7876076696470523228
+      Dr Horse-Sheet_15: 1048949358818825447
+      Dr Horse-Sheet_16: -983577286197476435
+      Dr Horse-Sheet_17: -2460870983238410238
+      Dr Horse-Sheet_18: 6377921630761117462
+      Dr Horse-Sheet_19: 249792771181205054
+      Dr Horse-Sheet_2: -1240733122392834631
+      Dr Horse-Sheet_20: -7779489633435700699
+      Dr Horse-Sheet_3: -5050576820041538455
+      Dr Horse-Sheet_4: 8689974483071335048
+      Dr Horse-Sheet_5: 7872673386901937832
+      Dr Horse-Sheet_6: -2324595265392252756
+      Dr Horse-Sheet_7: 5179679938668030171
+      Dr Horse-Sheet_8: 3828932211162009046
+      Dr Horse-Sheet_9: -1547011512218958938
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

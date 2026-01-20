@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 6135a08959a5f0844951ab36e23fa4cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8861887140204215885
+    second: Tiny idle-Sheet_0
+  - first:
+      213: -5511515355957744077
+    second: Tiny idle-Sheet_1
+  - first:
+      213: -7792893583921100096
+    second: Tiny idle-Sheet_2
+  - first:
+      213: -1324976094746246860
+    second: Tiny idle-Sheet_3
+  - first:
+      213: -3730349732472418121
+    second: Tiny idle-Sheet_4
+  - first:
+      213: -7566899406179296869
+    second: Tiny idle-Sheet_5
+  - first:
+      213: -8491249851938155688
+    second: Tiny idle-Sheet_6
+  - first:
+      213: -9168841338337296693
+    second: Tiny idle-Sheet_7
+  - first:
+      213: 3209786799193099336
+    second: Tiny idle-Sheet_8
+  - first:
+      213: 9216636226132122
+    second: Tiny idle-Sheet_9
+  - first:
+      213: 8212784465722982476
+    second: Tiny idle-Sheet_10
+  - first:
+      213: 7158503278771723448
+    second: Tiny idle-Sheet_11
+  - first:
+      213: 8354041735899396072
+    second: Tiny idle-Sheet_12
+  - first:
+      213: -6847776644821572009
+    second: Tiny idle-Sheet_13
+  - first:
+      213: 3298992605779610796
+    second: Tiny idle-Sheet_14
+  - first:
+      213: 8402321780265906323
+    second: Tiny idle-Sheet_15
+  - first:
+      213: -7390204734076353426
+    second: Tiny idle-Sheet_16
+  - first:
+      213: -6879778358992204159
+    second: Tiny idle-Sheet_17
+  - first:
+      213: -1708572588706834865
+    second: Tiny idle-Sheet_18
+  - first:
+      213: 5063832242452697655
+    second: Tiny idle-Sheet_19
+  - first:
+      213: -3701337452541305893
+    second: Tiny idle-Sheet_20
+  - first:
+      213: 4617039023999227743
+    second: Tiny idle-Sheet_21
+  - first:
+      213: -6094290912390704022
+    second: Tiny idle-Sheet_22
+  - first:
+      213: 8140564235065352450
+    second: Tiny idle-Sheet_23
+  - first:
+      213: -5819623360176516899
+    second: Tiny idle-Sheet_24
+  - first:
+      213: 3870093606265008079
+    second: Tiny idle-Sheet_25
+  - first:
+      213: 4703516533750479978
+    second: Tiny idle-Sheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b186882990440580800000000000000
+      internalID: -8861887140204215885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e270a2cf92383b0800000000000000
+      internalID: -5511515355957744077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca46fde2941ad390800000000000000
+      internalID: -7792893583921100096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43104c8034dbc9de0800000000000000
+      internalID: -1324976094746246860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0120cbea22b3cc0800000000000000
+      internalID: -3730349732472418121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99919bc419fcf690800000000000000
+      internalID: -7566899406179296869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853532c8f35092a80800000000000000
+      internalID: -8491249851938155688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcefc72a16bb1c080800000000000000
+      internalID: -9168841338337296693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c84a276147b8c20800000000000000
+      internalID: 3209786799193099336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9858485b7eb02000800000000000000
+      internalID: 9216636226132122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40c34855fba9f170800000000000000
+      internalID: 8212784465722982476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc58aefdcc185360800000000000000
+      internalID: 7158503278771723448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7321b72b48fe370800000000000000
+      internalID: 8354041735899396072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756a1303c6fc7f0a0800000000000000
+      internalID: -6847776644821572009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac4220db4068cd20800000000000000
+      internalID: 3298992605779610796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390f649442b0b9470800000000000000
+      internalID: 8402321780265906323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6408f703f7b07990800000000000000
+      internalID: -7390204734076353426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e89da780e1680a0800000000000000
+      internalID: -6879778358992204159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46d821784ee948e0800000000000000
+      internalID: -1708572588706834865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732109d5898564640800000000000000
+      internalID: 5063832242452697655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb1d6b823532acc0800000000000000
+      internalID: -3701337452541305893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57179bb784031040800000000000000
+      internalID: 4617039023999227743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a649f0144babc6ba0800000000000000
+      internalID: -6094290912390704022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201e15e8a0819f070800000000000000
+      internalID: 8140564235065352450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd01d1a336b8c3fa0800000000000000
+      internalID: -5819623360176516899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfafe851a555b530800000000000000
+      internalID: 3870093606265008079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny idle-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cbf5dfd5f364140800000000000000
+      internalID: 4703516533750479978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tiny idle-Sheet_0: -8861887140204215885
+      Tiny idle-Sheet_1: -5511515355957744077
+      Tiny idle-Sheet_10: 8212784465722982476
+      Tiny idle-Sheet_11: 7158503278771723448
+      Tiny idle-Sheet_12: 8354041735899396072
+      Tiny idle-Sheet_13: -6847776644821572009
+      Tiny idle-Sheet_14: 3298992605779610796
+      Tiny idle-Sheet_15: 8402321780265906323
+      Tiny idle-Sheet_16: -7390204734076353426
+      Tiny idle-Sheet_17: -6879778358992204159
+      Tiny idle-Sheet_18: -1708572588706834865
+      Tiny idle-Sheet_19: 5063832242452697655
+      Tiny idle-Sheet_2: -7792893583921100096
+      Tiny idle-Sheet_20: -3701337452541305893
+      Tiny idle-Sheet_21: 4617039023999227743
+      Tiny idle-Sheet_22: -6094290912390704022
+      Tiny idle-Sheet_23: 8140564235065352450
+      Tiny idle-Sheet_24: -5819623360176516899
+      Tiny idle-Sheet_25: 3870093606265008079
+      Tiny idle-Sheet_26: 4703516533750479978
+      Tiny idle-Sheet_3: -1324976094746246860
+      Tiny idle-Sheet_4: -3730349732472418121
+      Tiny idle-Sheet_5: -7566899406179296869
+      Tiny idle-Sheet_6: -8491249851938155688
+      Tiny idle-Sheet_7: -9168841338337296693
+      Tiny idle-Sheet_8: 3209786799193099336
+      Tiny idle-Sheet_9: 9216636226132122
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
