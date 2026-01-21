@@ -7,7 +7,6 @@ public class UIManager : MonoBehaviour
 {
     [Header("Text")]
     [SerializeField] TextMeshProUGUI timer;
-    [SerializeField] TextMeshProUGUI score;
 
     [Header("Screens")]
     [SerializeField] GameObject pauseMenu;
@@ -15,7 +14,6 @@ public class UIManager : MonoBehaviour
 
     [Header("End Game")]
     [SerializeField] TextMeshProUGUI result;
-    [SerializeField] TextMeshProUGUI finalScore;
 
     void Start()
     {
@@ -54,20 +52,26 @@ public class UIManager : MonoBehaviour
 
     public void WinGame()
     {
+        Time.timeScale = 0f;
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         endGameScreen.SetActive(true);
 
         result.SetText("Level Completed!");
-
-        finalScore.SetText(score.text);
     }
 
     public void GameOver()
     {
+        Time.timeScale = 0f;
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         endGameScreen.SetActive(true);
 
         result.SetText("You can´t do this");
-
-        finalScore.SetText(score.text);
     }
 
     public void Resume()
@@ -83,18 +87,15 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void Settings()
-    {
-        
-    }
-
     public void Exit()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(0);
     }
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1f;
+
+        SceneManager.LoadScene(1);
     }
 }

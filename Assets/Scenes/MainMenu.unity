@@ -313,7 +313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PARKOUR ADVENTURE
+  m_text: OWALD'S ADVENTURE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ba870d744f7db3f4a80b617458dc89eb, type: 2}
   m_sharedMaterial: {fileID: -7155793739574052877, guid: ba870d744f7db3f4a80b617458dc89eb, type: 2}
@@ -723,7 +723,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8107026894343098098, guid: 079f2b3ab6ba7c54b9bf44f3c4fa4798, type: 3}
+  m_Sprite: {fileID: -7415970578100689029, guid: 018feddceb3d1344fb90c70da4a9ec4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -825,8 +825,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 902852160}
-        m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: Exit
+        m_TargetAssemblyTypeName: MainMenuUIManager, Assembly-CSharp
+        m_MethodName: QuitButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1108,10 +1108,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 902852159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c09bd95d831d74d469f277b79a222ce7, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d97720324e59894ba768c5163adf4b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuManager
-  clip: {fileID: 0}
 --- !u!4 &902852161
 Transform:
   m_ObjectHideFlags: 0

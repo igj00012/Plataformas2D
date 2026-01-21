@@ -3,17 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuUIManager : MonoBehaviour
 {
-    public void Start()
+    public void StartButton()
     {
         SceneManager.LoadScene(1);
     }
 
-    public void Settings()
-    {
-
-    }
-
-    public void Quit()
+    public void QuitButton()
     {
         Application.Quit();
     }

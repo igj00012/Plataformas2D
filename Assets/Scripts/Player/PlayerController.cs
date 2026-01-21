@@ -61,9 +61,9 @@ public class PlayerController : MovementController
 
         if (currentHealth <= 0)
         {
-            gameObject.SetActive(false);
+            transform.gameObject.SetActive(false);
 
-            //Destroy(gameObject);
+            GameObject.FindAnyObjectByType<UIManager>().GameOver();
         }
     }
 }
