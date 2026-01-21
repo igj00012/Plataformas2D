@@ -4,8 +4,11 @@ public class PatrollingEnemy : MonoBehaviour
 {
     [SerializeField] float speed = 5f;
     [SerializeField] float patrolDistance = 5f;
+
     [SerializeField] GameObject gameObjectToSpawn;
     [SerializeField] Transform deathPoint;
+
+    [SerializeField] Transform hitBox;
 
     Rigidbody2D rb2D;
     float direction = 1f;
@@ -15,6 +18,8 @@ public class PatrollingEnemy : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         startPosition = transform.position;
+
+        hitBox.gameObject.SetActive(true);
     }
 
     private void Update()
@@ -40,13 +45,5 @@ public class PatrollingEnemy : MonoBehaviour
         Instantiate(gameObjectToSpawn, deathPoint.position, Quaternion.identity);
 
         Destroy(gameObject);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Player"))
-        {
-            Debug.Log("Player detected by PatrollingEnemy");
-        }
     }
 }

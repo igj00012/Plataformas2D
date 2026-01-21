@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CaparazonMovement : MonoBehaviour
 {
+    [SerializeField] Transform hitBox;
+
     Animator animator;
     Rigidbody2D rb2D;
     bool isMoving = false;
@@ -13,6 +15,8 @@ public class CaparazonMovement : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
+
+        hitBox.gameObject.SetActive(false);
     }
 
     float lifeTime = 5f;
@@ -42,6 +46,8 @@ public class CaparazonMovement : MonoBehaviour
             if (hitOffset < 0) direction = 1f;
             else direction = -1f;
 
+            hitBox.gameObject.SetActive(true);
+
             animator.SetBool("Walking", true);
         }
         else if (!collision.collider.CompareTag("Player") && isMoving)
@@ -54,7 +60,7 @@ public class CaparazonMovement : MonoBehaviour
         }
         else if (collision.collider.CompareTag("Player") && isMoving)
         {
-            Debug.Log("Tocado al jugador en movimiento");
+            Destroy(gameObject);
         }
     }
 }
