@@ -9,9 +9,16 @@ public class MovementController : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] float walkSpeed = 3f;
     [SerializeField] float jumpForce = 10f;
+    [SerializeField] float doubleJumpForce = 5f;
 
     [Header("Health Settings")]
     [SerializeField] int maxHealth = 5;
+
+    [Header("Jump Settings")]
+    [SerializeField] Transform groundCheck;
+    [SerializeField] Vector2 groundCheckSize;
+    [SerializeField] LayerMask groundLayer;
+    [SerializeField] int maxJumps = 2;
 
     Rigidbody2D rb2D;
     protected Animator animator;
@@ -29,6 +36,8 @@ public class MovementController : MonoBehaviour
     protected bool mustJump = false;
     protected bool mustPunch = false;
     protected bool criticalHit = false;
+    int currentJumps;
+    bool isGrounded;
     protected virtual void Update()
     {
         rb2D.linearVelocityX = desiredMove.x * walkSpeed;
@@ -57,20 +66,35 @@ public class MovementController : MonoBehaviour
 
         if (desiredMove.x < 0f)
         {
-            //spriteRenderer.flipX = true;
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         else if (desiredMove.x > 0f)
         {
-            //spriteRenderer.flipX = false;
             transform.localScale = Vector3.one;
         }
+    }
 
-        if (mustJump)
+    private void FixedUpdate()
+    {
+        isGrounded = Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 0f, groundLayer);
+
+        if (isGrounded && rb2D.linearVelocityY <= 0.01f)
         {
-            rb2D.linearVelocityY = jumpForce;
+            currentJumps = 0;
+        }
+
+        if (mustJump && currentJumps < maxJumps)
+        {
+            if (currentJumps > 0)
+            {
+                rb2D.AddForce(Vector2.up * doubleJumpForce, ForceMode2D.Impulse);
+            }
+            else
+            {
+                rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            }
             mustJump = false;
-            animator.SetTrigger("Jump" );
+            currentJumps++;
         }
     }
 
