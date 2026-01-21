@@ -4,6 +4,8 @@ public class PatrollingEnemy : MonoBehaviour
 {
     [SerializeField] float speed = 5f;
     [SerializeField] float patrolDistance = 5f;
+    [SerializeField] GameObject gameObjectToSpawn;
+    [SerializeField] Transform deathPoint;
 
     Rigidbody2D rb2D;
     float direction = 1f;
@@ -25,6 +27,19 @@ public class PatrollingEnemy : MonoBehaviour
         }
 
         rb2D.linearVelocityX = direction * speed;
+    }
+
+    float bounceForce = 4f;
+    public void OnHeadStomped(Rigidbody2D playerRb)
+    {
+        if (playerRb != null)
+        {
+            playerRb.linearVelocity = new Vector2(playerRb.linearVelocityX, bounceForce);
+        }
+
+        Instantiate(gameObjectToSpawn, deathPoint.position, Quaternion.identity);
+
+        Destroy(gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
