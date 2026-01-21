@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MovementController
 {
+    [SerializeField] HPManager HPManager;
+
     public static PlayerController instance;
 
     protected override void Awake()
@@ -52,6 +54,8 @@ public class PlayerController : MovementController
     public override void NotifyHit(Hitbox2D hitbox)
     {
         currentHealth -= hitbox.GetDamage();
+
+        HPManager.UpdateHP(currentHealth);
 
         if (currentHealth <= 0)
         {

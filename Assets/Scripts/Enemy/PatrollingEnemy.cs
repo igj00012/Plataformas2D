@@ -14,7 +14,7 @@ public class PatrollingEnemy : MonoBehaviour
     float direction = 1f;
     Vector3 startPosition;
 
-    private void Awake()
+    protected  void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
         startPosition = transform.position;

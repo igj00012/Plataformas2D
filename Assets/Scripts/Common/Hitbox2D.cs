@@ -32,6 +32,14 @@ public class Hitbox2D : MonoBehaviour
         TryHit(collision);
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (hitObjects.Contains(collision.gameObject))
+        {
+            hitObjects.Remove(collision.gameObject);
+        }
+    }
+
     public int GetDamage()
     {
         return damage;
