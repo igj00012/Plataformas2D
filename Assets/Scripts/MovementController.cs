@@ -10,15 +10,19 @@ public class MovementController : MonoBehaviour
     [SerializeField] float walkSpeed = 3f;
     [SerializeField] float jumpForce = 10f;
 
+    [Header("Health Settings")]
+    [SerializeField] int maxHealth = 5;
+
     Rigidbody2D rb2D;
     Animator animator;
-    SpriteRenderer spriteRenderer;
+    protected int currentHealth;
 
     protected virtual void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        currentHealth = maxHealth;
     }
 
     protected Vector2 desiredMove = Vector2.zero;
@@ -67,6 +71,9 @@ public class MovementController : MonoBehaviour
             rb2D.linearVelocityY = jumpForce;
             mustJump = false;
         }
+
+        Debug.Log($"{gameObject.name} was hit! Current Health: {currentHealth}");
+
     }
 
     protected void PerformPunch()
@@ -83,6 +90,12 @@ public class MovementController : MonoBehaviour
     
     public virtual void NotifyHit(Hitbox2D hitbox)
     {
-        Destroy(gameObject);
+        currentHealth -= hitbox.GetDamage();
+
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
+
     }
 }

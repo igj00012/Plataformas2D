@@ -51,13 +51,13 @@ public class PlayerController : MovementController
 
     public override void NotifyHit(Hitbox2D hitbox)
     {
-        Debug.Log("Este notify es del PlayerController");
-        gameObject.SetActive(false);
-        Invoke(nameof(ActivatePlayer), 3f);
-    }
+        currentHealth -= hitbox.GetDamage();
 
-    void ActivatePlayer()
-    {
-        gameObject.SetActive(true);
+        if (currentHealth <= 0)
+        {
+            gameObject.SetActive(false);
+
+            //Destroy(gameObject);
+        }
     }
 }

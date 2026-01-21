@@ -20,7 +20,7 @@ public class PatrollingEnemy : MonoBehaviour
     private void Update()
     {
         float offset = Mathf.Abs(transform.position.x - startPosition.x);
-        if (offset >= patrolDistance)
+        if (offset > patrolDistance)
         {
             direction *= -1f;
             transform.localScale = new Vector3(direction, 1f, 1f);
