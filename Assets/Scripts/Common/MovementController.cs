@@ -14,7 +14,7 @@ public class MovementController : MonoBehaviour
     [SerializeField] int maxHealth = 5;
 
     Rigidbody2D rb2D;
-    Animator animator;
+    protected Animator animator;
     protected int currentHealth;
 
     protected virtual void Awake()
@@ -70,10 +70,8 @@ public class MovementController : MonoBehaviour
         {
             rb2D.linearVelocityY = jumpForce;
             mustJump = false;
+            animator.SetTrigger("Jump" );
         }
-
-        Debug.Log($"{gameObject.name} was hit! Current Health: {currentHealth}");
-
     }
 
     protected void PerformPunch()
@@ -87,13 +85,20 @@ public class MovementController : MonoBehaviour
     {
         punchHit.gameObject.SetActive(false);
     }
-    
+
+    int critDamage = 2;
     public virtual void NotifyHit(Hitbox2D hitbox)
     {
+        if (criticalHit)
+        {
+            currentHealth -= hitbox.GetDamage() * critDamage;
+        }
         currentHealth -= hitbox.GetDamage();
 
+        animator.SetTrigger("Hit");
+
         if (currentHealth <= 0)
-        {
+        {            
             Destroy(gameObject);
         }
 

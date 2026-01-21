@@ -55,6 +55,8 @@ public class PlayerController : MovementController
     {
         currentHealth -= hitbox.GetDamage();
 
+        animator.SetTrigger("Hit");
+
         HPManager.UpdateHP(currentHealth);
 
         if (currentHealth <= 0)

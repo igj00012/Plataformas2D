@@ -60,7 +60,7 @@ public class CaparazonMovement : MonoBehaviour
         }
         else if (collision.collider.CompareTag("Player") && isMoving)
         {
-            Destroy(gameObject);
+            
         }
     }
 }
