@@ -5,6 +5,10 @@ public class PlayerController : MovementController
 {
     [SerializeField] HPManager hpManager;
 
+    [SerializeField] float critProb = 0.4f;
+
+    [SerializeField] AudioClip defeat;
+
     public static PlayerController instance;
 
     protected override void Awake()
@@ -31,7 +35,6 @@ public class PlayerController : MovementController
         }
     }
 
-    private float critProb = 0.4f;
     private void UpdateRawMove()
     {
         Vector2 rawMove = Vector2.zero;
@@ -73,6 +76,8 @@ public class PlayerController : MovementController
 
         if (currentHealth <= 0)
         {
+            AudioManager.instance.PlaySFX(defeat);
+
             transform.gameObject.SetActive(false);
 
             GameObject.FindAnyObjectByType<UIManager>().GameOver();

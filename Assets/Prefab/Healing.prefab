@@ -152,3 +152,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DropObject
   lifeTime: 5
+  sfx: {fileID: 8300000, guid: b9667211f1c97244db374a908ab1f8be, type: 3}

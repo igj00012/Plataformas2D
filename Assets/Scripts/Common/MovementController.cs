@@ -20,6 +20,9 @@ public class MovementController : MonoBehaviour
     [SerializeField] LayerMask groundLayer;
     [SerializeField] int maxJumps = 2;
 
+    [SerializeField] AudioClip hit;
+    [SerializeField] AudioClip jump;
+
     Rigidbody2D rb2D;
     protected Animator animator;
     protected int currentHealth;
@@ -95,6 +98,8 @@ public class MovementController : MonoBehaviour
             }
             mustJump = false;
             currentJumps++;
+
+            AudioManager.instance.PlaySFX(jump);
         }
     }
 
@@ -125,6 +130,8 @@ public class MovementController : MonoBehaviour
         {            
             Destroy(gameObject);
         }
+
+        AudioManager.instance.PlaySFX(hit);
 
     }
 }

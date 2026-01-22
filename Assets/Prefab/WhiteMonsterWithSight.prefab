@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3240415758466233463, guid: 0592e18795fc4a845a4daeb68382f445, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.12
+      value: 35.63
       objectReference: {fileID: 0}
     - target: {fileID: 3240415758466233463, guid: 0592e18795fc4a845a4daeb68382f445, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.53
+      value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 3240415758466233463, guid: 0592e18795fc4a845a4daeb68382f445, type: 3}
       propertyPath: m_LocalPosition.z
@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3758ae6f2d6f5b42a307e1298a573d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sight2D
-  radius: 3
+  radius: 4
   checkFrequency: 5
 --- !u!114 &1674569940799087425
 MonoBehaviour:
@@ -112,10 +112,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   maxJumps: 2
+  hit: {fileID: 8300000, guid: 442827677fa7ec445aae78ed56132c3b, type: 3}
+  jump: {fileID: 8300000, guid: c29c1d1db65e33848bbb949c7e68b408, type: 3}
   distanceToPunch: 0.75
-  timeBetweenPunches: 1
+  timeBetweenPunches: 2
   objectToSpawn: {fileID: 1581844781087898814, guid: 75eb5a4ba0431d949b01a64cc8587270, type: 3}
-  probabilityToSpawn: 0.5
+  probabilityToSpawn: 0.6
 --- !u!4 &7910976525107047680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8950335264763683398, guid: 0592e18795fc4a845a4daeb68382f445, type: 3}

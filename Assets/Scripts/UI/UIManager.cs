@@ -15,10 +15,15 @@ public class UIManager : MonoBehaviour
     [Header("End Game")]
     [SerializeField] TextMeshProUGUI result;
 
+    [SerializeField] AudioClip maintheme;
+    [SerializeField] AudioClip button;
+
     void Start()
     {
         pauseMenu.SetActive(false);
         endGameScreen.SetActive(false);
+
+        AudioManager.instance.PlayMusic(maintheme);
     }
 
     int initialTime = 999;
@@ -78,6 +83,8 @@ public class UIManager : MonoBehaviour
     {
         if (pauseMenu.activeInHierarchy)
         {
+            AudioManager.instance.PlaySFX(button);
+
             pauseMenu.SetActive(false);
 
             Time.timeScale = 1f;
@@ -89,11 +96,15 @@ public class UIManager : MonoBehaviour
 
     public void Exit()
     {
+        AudioManager.instance.PlaySFX(button);
+
         SceneManager.LoadScene(0);
     }
 
     public void Restart()
     {
+        AudioManager.instance.PlaySFX(button);
+
         Time.timeScale = 1f;
 
         SceneManager.LoadScene(1);

@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 3359254809684455400}
   - component: {fileID: 2076880779053933841}
   - component: {fileID: 5284985198066319397}
-  - component: {fileID: 1598629656192386408}
   - component: {fileID: 7827552590471691695}
   - component: {fileID: 2621017491958853631}
+  - component: {fileID: 1038083446025701565}
+  - component: {fileID: 5941101935842412346}
+  - component: {fileID: 8248484509697435815}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Enemy
@@ -119,34 +121,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1598629656192386408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3339272313431612479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c038f30102bc835489c12d6f023cdfdc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyController
-  punchHit: {fileID: 6121930013421641171}
-  punchHitDuration: 0.25
-  walkSpeed: 1
-  jumpForce: 10
-  doubleJumpForce: 5
-  maxHealth: 20
-  groundCheck: {fileID: 4513663435623235984}
-  groundCheckSize: {x: 0.2, y: 0.2}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  maxJumps: 2
-  distanceToPunch: 1
-  timeBetweenPunches: 5
-  objectToSpawn: {fileID: 0}
-  probabilityToSpawn: 0
 --- !u!50 &7827552590471691695
 Rigidbody2D:
   serializedVersion: 5
@@ -211,6 +185,63 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.19, y: 1.85}
   m_Direction: 0
+--- !u!114 &1038083446025701565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339272313431612479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f6d3a3fa6e61f468171b292e2215a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDefeated
+  uiManager: {fileID: 0}
+--- !u!114 &5941101935842412346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339272313431612479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3758ae6f2d6f5b42a307e1298a573d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sight2D
+  radius: 15
+  checkFrequency: 5
+--- !u!114 &8248484509697435815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339272313431612479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f6f35f809ce46449bf4b613983a41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyWithSight
+  punchHit: {fileID: 6121930013421641171}
+  punchHitDuration: 0.25
+  walkSpeed: 0.75
+  jumpForce: 10
+  doubleJumpForce: 5
+  maxHealth: 20
+  groundCheck: {fileID: 4513663435623235984}
+  groundCheckSize: {x: 0, y: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  maxJumps: 2
+  hit: {fileID: 8300000, guid: 442827677fa7ec445aae78ed56132c3b, type: 3}
+  jump: {fileID: 8300000, guid: c29c1d1db65e33848bbb949c7e68b408, type: 3}
+  distanceToPunch: 1
+  timeBetweenPunches: 3
+  objectToSpawn: {fileID: 0}
+  probabilityToSpawn: 0.5
 --- !u!1 &5861207609235257061
 GameObject:
   m_ObjectHideFlags: 0

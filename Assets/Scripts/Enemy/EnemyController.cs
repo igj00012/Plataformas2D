@@ -7,7 +7,7 @@ public class EnemyController : MovementController
 
     [SerializeField] GameObject objectToSpawn;
     [SerializeField] float probabilityToSpawn = 0.5f;
-
+    
     Transform player;
     float lastPunchTime;
 

@@ -4,6 +4,8 @@ public class DropObject : MonoBehaviour
 {
     [SerializeField] float lifeTime;
 
+    [SerializeField] AudioClip sfx;
+
     private void Start()
     {
         Destroy(gameObject, lifeTime);
@@ -13,6 +15,7 @@ public class DropObject : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            AudioManager.instance.PlaySFX(sfx);
             Destroy(gameObject);
         }
     }
