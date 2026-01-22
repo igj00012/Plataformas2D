@@ -58,9 +58,5 @@ public class CaparazonMovement : MonoBehaviour
 
             animator.SetBool("Walking", true);
         }
-        else if (collision.collider.CompareTag("Player") && isMoving)
-        {
-            
-        }
     }
 }

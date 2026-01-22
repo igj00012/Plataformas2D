@@ -20,6 +20,9 @@ public class MovementController : MonoBehaviour
     [SerializeField] LayerMask groundLayer;
     [SerializeField] int maxJumps = 2;
 
+    [SerializeField] GameObject spawnPrefab;
+    [SerializeField] float spawnProb = 0.8f;
+
     [SerializeField] AudioClip hit;
     [SerializeField] AudioClip jump;
 
@@ -99,6 +102,8 @@ public class MovementController : MonoBehaviour
             mustJump = false;
             currentJumps++;
 
+            animator.SetTrigger("Jump");
+
             AudioManager.instance.PlaySFX(jump);
         }
     }
@@ -127,11 +132,21 @@ public class MovementController : MonoBehaviour
         animator.SetTrigger("Hit");
 
         if (currentHealth <= 0)
-        {            
+        {
+            SpawnObject();
+
             Destroy(gameObject);
         }
 
         AudioManager.instance.PlaySFX(hit);
 
+    }
+
+    private void SpawnObject()
+    {
+        if (Random.value <= spawnProb && spawnPrefab != null)
+        {
+            Instantiate(spawnPrefab, transform.position, Quaternion.identity);
+        }
     }
 }

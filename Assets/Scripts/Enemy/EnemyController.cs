@@ -4,9 +4,6 @@ public class EnemyController : MovementController
 {
     [SerializeField] float distanceToPunch = 0.75f;
     [SerializeField] float timeBetweenPunches = 1f;
-
-    [SerializeField] GameObject objectToSpawn;
-    [SerializeField] float probabilityToSpawn = 0.5f;
     
     Transform player;
     float lastPunchTime;
@@ -27,17 +24,6 @@ public class EnemyController : MovementController
         }
 
         base.Update();
-    }
-
-    private void OnDestroy()
-    {
-        if (objectToSpawn != null)
-        {
-            if (Random.value <= probabilityToSpawn)
-            {
-                Instantiate(objectToSpawn, transform.position, Quaternion.identity);
-            }
-        }
     }
 
     private void CheckAndPerformPunch()

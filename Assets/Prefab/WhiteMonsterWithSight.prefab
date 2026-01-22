@@ -112,12 +112,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   maxJumps: 2
+  spawnPrefab: {fileID: 1581844781087898814, guid: 75eb5a4ba0431d949b01a64cc8587270, type: 3}
+  spawnProb: 0.6
   hit: {fileID: 8300000, guid: 442827677fa7ec445aae78ed56132c3b, type: 3}
   jump: {fileID: 8300000, guid: c29c1d1db65e33848bbb949c7e68b408, type: 3}
   distanceToPunch: 0.75
   timeBetweenPunches: 2
-  objectToSpawn: {fileID: 1581844781087898814, guid: 75eb5a4ba0431d949b01a64cc8587270, type: 3}
-  probabilityToSpawn: 0.6
 --- !u!4 &7910976525107047680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8950335264763683398, guid: 0592e18795fc4a845a4daeb68382f445, type: 3}

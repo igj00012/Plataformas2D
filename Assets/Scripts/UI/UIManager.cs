@@ -15,15 +15,21 @@ public class UIManager : MonoBehaviour
     [Header("End Game")]
     [SerializeField] TextMeshProUGUI result;
 
+    [SerializeField] AudioClip music;
+
     [SerializeField] AudioClip button;
+
+    bool bossDefeated = false;
 
     void Start()
     {
         pauseMenu.SetActive(false);
         endGameScreen.SetActive(false);
+
+        AudioManager.instance.PlayMusic(music);
     }
 
-    int initialTime = 999;
+    int initialTime = 300;
     float timeIndex = 0f;
     void Update()
     {
@@ -39,6 +45,15 @@ public class UIManager : MonoBehaviour
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             PauseGame();
+        }
+
+        if (initialTime <= 0 && !bossDefeated)
+        {
+            GameOver();
+        }
+        else if (bossDefeated)
+        {
+            WinGame();
         }
     }
 
@@ -61,7 +76,7 @@ public class UIManager : MonoBehaviour
 
         endGameScreen.SetActive(true);
 
-        result.SetText("Level Completed!");
+        result.SetText("Well done!");
     }
 
     public void GameOver()
@@ -73,7 +88,7 @@ public class UIManager : MonoBehaviour
 
         endGameScreen.SetActive(true);
 
-        result.SetText("You can´t do this");
+        result.SetText("You die!");
     }
 
     public void Resume()
@@ -108,5 +123,10 @@ public class UIManager : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+    }
+
+    public void IsBossDefeated(bool defeated)
+    {
+        bossDefeated = defeated;
     }
 }

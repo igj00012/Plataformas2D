@@ -6,6 +6,11 @@ public class BossDefeated : MonoBehaviour
 
     private void OnDestroy()
     {
-        uiManager.WinGame();    
+        if (Application.isPlaying)
+        {
+            AudioManager.instance.StopMusic();
+
+            uiManager.IsBossDefeated(true);
+        }
     }
 }

@@ -76,11 +76,18 @@ public class PlayerController : MovementController
 
         if (currentHealth <= 0)
         {
-            AudioManager.instance.PlaySFX(defeat);
-
-            transform.gameObject.SetActive(false);
-
-            GameObject.FindAnyObjectByType<UIManager>().GameOver();
+            Die();
         }
+    }
+
+    public void Die()
+    {
+        AudioManager.instance.StopMusic();
+
+        AudioManager.instance.PlaySFX(defeat);
+
+        transform.gameObject.SetActive(false);
+
+        GameObject.FindAnyObjectByType<UIManager>().GameOver();
     }
 }
