@@ -695,6 +695,15 @@ MonoBehaviour:
   punchHitDuration: 0.25
   walkSpeed: 1.5
   jumpForce: 3
+  doubleJumpForce: 5
+  maxHealth: 5
+  groundCheck: {fileID: 0}
+  groundCheckSize: {x: 0, y: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  maxJumps: 2
+  HPManager: {fileID: 0}
 --- !u!114 &923146960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -755,6 +764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hitbox2D
   affectedTag: Enemy
+  damage: 1
 --- !u!58 &1028393200
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1543,6 +1553,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &1209033681 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1379729936686431909, guid: be57841ab9022d54b8cad43d995368a9, type: 3}
+  m_PrefabInstance: {fileID: 7991200995730577321}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1418295404
 GameObject:
   m_ObjectHideFlags: 0
@@ -4177,6 +4192,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5347002636637594685, guid: be57841ab9022d54b8cad43d995368a9, type: 3}
+      propertyPath: punchHit
+      value: 
+      objectReference: {fileID: 1209033681}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

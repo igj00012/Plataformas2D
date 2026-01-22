@@ -6,12 +6,8 @@ public class HPManager : MonoBehaviour
     [Header("Hearts")]
     [SerializeField] Image[] hearts;
 
-    [Header("Heart images")]
-    [SerializeField] Sprite fullHeart;
 
     [SerializeField] AudioClip hit;
-
-    private int maxHealth = 5;
 
     public void UpdateHP(int currentHP)
     {
@@ -19,7 +15,7 @@ public class HPManager : MonoBehaviour
         {
             if (i < currentHP)
             {
-                hearts[i].sprite = fullHeart;
+                hearts[i].color = Color.white;
             }
             else
             {
@@ -29,6 +25,4 @@ public class HPManager : MonoBehaviour
             }
         }
     }
-
-    public float GetMaxHealth() { return maxHealth; }
 }

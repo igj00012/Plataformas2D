@@ -286,4 +286,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hitbox2D
   affectedTag: Player
-  damage: 2
+  damage: 1

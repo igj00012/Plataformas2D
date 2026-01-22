@@ -12,7 +12,7 @@ public class MovementController : MonoBehaviour
     [SerializeField] float doubleJumpForce = 5f;
 
     [Header("Health Settings")]
-    [SerializeField] int maxHealth = 5;
+    [SerializeField] protected int maxHealth = 5;
 
     [Header("Jump Settings")]
     [SerializeField] Transform groundCheck;

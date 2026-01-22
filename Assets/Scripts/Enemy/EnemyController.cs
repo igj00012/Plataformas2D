@@ -4,6 +4,9 @@ public class EnemyController : MovementController
 {
     [SerializeField] float distanceToPunch = 0.75f;
     [SerializeField] float timeBetweenPunches = 1f;
+
+    [SerializeField] GameObject objectToSpawn;
+
     Transform player;
     float lastPunchTime;
 
@@ -23,6 +26,11 @@ public class EnemyController : MovementController
         }
 
         base.Update();
+    }
+
+    private void OnDestroy()
+    {
+        Instantiate(objectToSpawn, transform.position, Quaternion.identity);
     }
 
     private void CheckAndPerformPunch()
