@@ -82,6 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hitbox2D
   affectedTag: Player
+  damage: 1
 --- !u!1 &5633321898835547806
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +94,6 @@ GameObject:
   - component: {fileID: 3240415758466233463}
   - component: {fileID: 2114828350975976829}
   - component: {fileID: 4821116478548396354}
-  - component: {fileID: 193253360893803789}
   - component: {fileID: 7317273202239736351}
   - component: {fileID: 86676538166639396}
   m_Layer: 0
@@ -200,25 +200,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &193253360893803789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5633321898835547806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c038f30102bc835489c12d6f023cdfdc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyController
-  punchHit: {fileID: 8950335264763683398}
-  punchHitDuration: 0.25
-  walkSpeed: 1
-  jumpForce: 3
-  distanceToPunch: 0.25
-  timeBetweenPunches: 1
-  player: {fileID: 0}
 --- !u!50 &7317273202239736351
 Rigidbody2D:
   serializedVersion: 5

@@ -26,11 +26,14 @@ public class Sight2D : MonoBehaviour
     {
         bool isPlayerInSight = false;
 
-        for (int i = 0; (!isPlayerInSight && (i < colliders.Length)); i++)
+        if (colliders != null)
         {
-            if (colliders[i].CompareTag("Player"))
+            for (int i = 0; (!isPlayerInSight && (i < colliders.Length)); i++)
             {
-                isPlayerInSight = true;
+                if (colliders[i].CompareTag("Player"))
+                {
+                    isPlayerInSight = true;
+                }
             }
         }
 
