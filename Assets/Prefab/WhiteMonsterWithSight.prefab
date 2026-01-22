@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3240415758466233463, guid: 0592e18795fc4a845a4daeb68382f445, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 3240415758466233463, guid: 0592e18795fc4a845a4daeb68382f445, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.53
       objectReference: {fileID: 0}
     - target: {fileID: 3240415758466233463, guid: 0592e18795fc4a845a4daeb68382f445, type: 3}
       propertyPath: m_LocalPosition.z
@@ -115,6 +115,7 @@ MonoBehaviour:
   distanceToPunch: 0.75
   timeBetweenPunches: 1
   objectToSpawn: {fileID: 1581844781087898814, guid: 75eb5a4ba0431d949b01a64cc8587270, type: 3}
+  probabilityToSpawn: 0.5
 --- !u!4 &7910976525107047680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8950335264763683398, guid: 0592e18795fc4a845a4daeb68382f445, type: 3}

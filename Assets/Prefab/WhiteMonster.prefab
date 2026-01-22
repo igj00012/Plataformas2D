@@ -260,6 +260,7 @@ MonoBehaviour:
   distanceToPunch: 0.8
   timeBetweenPunches: 1.5
   objectToSpawn: {fileID: 1581844781087898814, guid: 75eb5a4ba0431d949b01a64cc8587270, type: 3}
+  probabilityToSpawn: 0.5
 --- !u!50 &7317273202239736351
 Rigidbody2D:
   serializedVersion: 5
