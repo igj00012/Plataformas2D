@@ -15,15 +15,12 @@ public class UIManager : MonoBehaviour
     [Header("End Game")]
     [SerializeField] TextMeshProUGUI result;
 
-    [SerializeField] AudioClip maintheme;
     [SerializeField] AudioClip button;
 
     void Start()
     {
         pauseMenu.SetActive(false);
         endGameScreen.SetActive(false);
-
-        AudioManager.instance.PlayMusic(maintheme);
     }
 
     int initialTime = 999;
@@ -105,8 +102,11 @@ public class UIManager : MonoBehaviour
     {
         AudioManager.instance.PlaySFX(button);
 
+        SceneManager.LoadScene(1);
+
         Time.timeScale = 1f;
 
-        SceneManager.LoadScene(1);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 }

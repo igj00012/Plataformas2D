@@ -13,12 +13,6 @@ public class EnemyInstantiator : MonoBehaviour
         sight2D = GetComponent<Sight2D>();
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        StartCoroutine(InstantiateEnemies(timeBetweenEnemyInstantiations));
-    }
-
     bool active = false;
     private void Update()
     {
