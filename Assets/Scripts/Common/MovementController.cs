@@ -127,7 +127,7 @@ public class MovementController : MonoBehaviour
         {
             currentHealth -= hitbox.GetDamage() * critDamage;
         }
-        currentHealth -= hitbox.GetDamage();
+        else currentHealth -= hitbox.GetDamage();
 
         animator.SetTrigger("Hit");
 
